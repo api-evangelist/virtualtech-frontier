@@ -1,8 +1,24 @@
 aid: virtualtech-frontier
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virtualtech-frontier.png
 name: Virtualtech Frontier
-description: Virtualtech Frontier is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Virtualtech Frontier (VTF) is a creative technology company that designs immersive
+  experiences by combining human creativity with technology across immersive centres and installations,
+  experiential events and exhibitions, AI-powered audience engagement, metaverse and virtual worlds,
+  and extended reality (XR/AR/VR). It operates the no-code metaverse-building platform Mitoworld and the
+  Lumiworks service, with offices in Kuala Lumpur, Beijing, Dubai, Tokyo, and Singapore, and clients
+  including HP, AIA, Nestle, Laneige, Dynatrace, and Omega. Surfaced as a portfolio company of 500 Global.
+  No public developer API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/virtualtech-frontier/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Metaverse
+- Extended Reality
+- Immersive Technology
+- Virtual Worlds
+- Experiential Events
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/virtualtech-frontier-domain-security.yml
 - type: Website
   url: https://virtualtechfrontier.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
